@@ -102,7 +102,7 @@
         if(!$message.value)
             return alert('Preencha a mensagem!');
 
-        if(!confirm('em certeza que deseja enviar o formulário?'))
+        if(!confirm('Tem certeza que deseja enviar o formulário?'))
             return alert('Não enviado.');
         return alert('Enviado com sucesso!');
     }, false);
