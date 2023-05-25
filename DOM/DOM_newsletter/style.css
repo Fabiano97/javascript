@@ -1,0 +1,22 @@
+
+#txtNome{
+    padding: 3px;
+    margin-bottom: 10px;
+    border-color: rgb(158, 158, 158);
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: larger;
+    width: 280px;
+}
+
+#txtEmail{
+    padding: 3px;
+    margin-bottom: 5px;
+    border-color:  rgb(158, 158, 158);
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: larger;
+    width: 280px;
+}
