@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mystyle.css">
+    <title>Tabuada</title>
+   
+</head>
+<body>
+    
+    <h1>Funções - Tabuada</h1>
+
+    <div class="botao">
+        <button onclick="mostrarTabuada()">Mostrar Tabuada</button>
+        <button onclick="limparTabuada()">Limpar Tabuada</button>
+    </div>
+    <div id="output"></div>
+
+    <script>
+
+        const output = document.getElementById("output");
+       
+        function mostrarTabuada(){
+             
+            let n = parseFloat(prompt("Digite um número.\nNão pode conter vírgulas ou pontos!"));
+            let msg = "";
+
+            if(!n)
+            return alert("Tente novamente.\nDigite um número válido!");
+
+            if(n > 1000000000)
+            return alert('Não é necessário obter tal conta.\nDigite menos números por favor!');
+            
+        
+            for(let i = 0; i <= 1000; i++){
+                msg += `${n} x ${i} = ${n * i} <br>`; 
+            }
+            output.innerHTML = msg; 
+        }
+
+        function limparTabuada(){
+           output.innerHTML = "";
+        }
+       
+    </script>
+
+</body>
+</html>

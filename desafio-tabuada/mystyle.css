@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+body{
+    background-color: lightblue;
+}
+
+h1{
+    background-color: rgb(187, 228, 255);
+    color: purple;
+    padding: 10px;
+    padding-bottom: 20px;
+    width: 350px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.267);
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.botao{
+    text-align: center;
+    margin-bottom: 2px;
+}
+
+.botao button{
+    background-color: purple;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    border-radius: 6px;
+    font-size: 1em;
+    font-weight: bold;
+    padding: 8px;
+    transition: 0.6s;
+}
+
+.botao button:hover{
+    background-color: rgb(42, 9, 233);
+    color: white;
+}
+
+#output{
+    text-align: center;
+    background-color: aliceblue;
+    border-radius: 12px;
+    min-width: 300px;
+    max-width: 30px;
+    margin: auto;
+}
